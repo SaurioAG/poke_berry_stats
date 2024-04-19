@@ -5,9 +5,11 @@ This API gathers berry information from https://pokeapi.co/docs/v2#berries-secti
 ## INSTALLATION
 
 LANGUAGE
+
 As this API was written in Python, you will need to install Python 3.10
 
 DEPENDENCIES
+
 Also, for correct execution, following dependencies are needed:
 
 - bs4  0.0.2
@@ -18,6 +20,7 @@ Also, for correct execution, following dependencies are needed:
 - pytest  8.1.1
 
 OS
+
 API was developed on Windows 10
 
 ## MODULES
