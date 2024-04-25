@@ -27,3 +27,14 @@
 2024-Apr-18-22:55:42,Transforming berries data
 2024-Apr-18-22:55:42,Generating CSV file
 2024-Apr-18-22:55:42,Ploting Histogram
+2024-Apr-25-15:44:05,Requesting data to pokeAPI
+2024-Apr-25-15:44:05,Performing some web scraping to gather data...
+2024-Apr-25-15:44:06,Extracting juice from berries...
+2024-Apr-25-15:44:33,Transforming berries data
+2024-Apr-25-15:44:33,Generating CSV file
+2024-Apr-25-15:44:45,Requesting data to pokeAPI
+2024-Apr-25-15:44:45,Performing some web scraping to gather data...
+2024-Apr-25-15:44:46,Extracting juice from berries...
+2024-Apr-25-15:45:03,Transforming berries data
+2024-Apr-25-15:45:03,Generating CSV file
+2024-Apr-25-15:45:03,Ploting Histogram
