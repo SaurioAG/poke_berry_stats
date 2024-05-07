@@ -8,7 +8,16 @@ def url_request(url: str):
     """
     This function will do a request to the given url and return a response object
     """
-    request = requests.get(url)
+    try:
+        request = requests.get(url)
+    except requests.exceptions.ConnectionError as error:
+        print(f'Connection error ocurred. Check internet connection. Error: {error}')
+    except requests.exceptions.Timeout as error:
+        print(f'The request reached timeout. Error: {error}')
+    except requests.exceptions.HTTPError as error:
+        print(f'An HTTP error ocurred. Error: {error}')
+    except requests.exceptions.RequestException as error:
+        print(f'An error ocurred. Error: {error}')
     return request
 
 def web_scraping(request):
